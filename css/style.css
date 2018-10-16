@@ -27,14 +27,17 @@ h1 {
 
 h2 {
   font-family: 'Heebo', sans-serif;
+  font-weight: 100pt;
 }
 
 h3 {
   font-family: 'Heebo', sans-serif;
+  font-weight: 100pt;
 }
 
 h4 {
   font-family: 'Heebo', sans-serif;
+  font-weight: 100pt;
 }
 .center {
   position: absolute;
