@@ -22,9 +22,20 @@ a:hover {
 h1 {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 200pt;
-  
+
 }
 
+h2 {
+  font-family: 'Heebo', sans-serif;
+}
+
+h3 {
+  font-family: 'Heebo', sans-serif;
+}
+
+h4 {
+  font-family: 'Heebo', sans-serif;
+}
 .center {
   position: absolute;
   top: 50%;
