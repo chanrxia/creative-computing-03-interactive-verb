@@ -9,13 +9,20 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
   min-width: 100vw;
   min-height: 100vh;
+  padding: 0;
+
 }
 
 a:hover {
   color: blue;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 200pt;
+  
 }
 
 .center {
