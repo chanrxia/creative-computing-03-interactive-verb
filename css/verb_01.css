@@ -58,14 +58,17 @@ body {
 
 @keyframes oval variation-1 {
   0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
     background: rgb(232,232,232);
     background: -moz-radial-gradient(circle, rgba(232,232,232,0.9510022271714922) 0%, rgba(208,209,255,1) 11%, rgba(85,137,244,1) 42%, rgba(58,58,212,1) 76%, rgba(0,0,0,1) 99%);
     background: -webkit-radial-gradient(circle, rgba(232,232,232,0.9510022271714922) 0%, rgba(208,209,255,1) 11%, rgba(85,137,244,1) 42%, rgba(58,58,212,1) 76%, rgba(0,0,0,1) 99%);
     background: radial-gradient(circle, rgba(232,232,232,0.9510022271714922) 0%, rgba(208,209,255,1) 11%, rgba(85,137,244,1) 42%, rgba(58,58,212,1) 76%, rgba(0,0,0,1) 99%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8e8e8",endColorstr="#000000",GradientType=1);  }
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8e8e8",endColorstr="#000000",GradientType=1);
 
-  25% {
-    background: hsl(100, 60%, 50%);
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
   }
 
   100% {
