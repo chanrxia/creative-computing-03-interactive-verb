@@ -56,7 +56,7 @@ body {
   transform: translateY(50px);
 }
 
-@keyframes oval variation-1 {
+@keyframes one {
   0% {
     transform: rotate(0deg);
   }
