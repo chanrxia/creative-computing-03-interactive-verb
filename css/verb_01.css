@@ -31,8 +31,10 @@ body {
 
 .shape {
   background: #4141d8;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 300px;
+  background: red;
+  border-radius: 100px / 50px;
 }
 
 .transforms {
