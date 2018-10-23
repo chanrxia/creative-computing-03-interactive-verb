@@ -22,7 +22,7 @@ body {
   background: black;
 }
 
-.shape {
+.oval {
   width: 900px;
   height: 300px;
   border-radius: 600px / 200px;
