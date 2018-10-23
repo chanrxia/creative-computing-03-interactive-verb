@@ -26,10 +26,13 @@ body {
   width: 900px;
   height: 300px;
   border-radius: 600px / 200px;
-  margin: auto;
-  margin-top: 30vh;
 }
 
+.oval one {
+  margin: auto;
+  margin-top: 30vh;
+
+}
 .transforms {
   transform: rotateZ(45deg);
   transform: rotateX(45deg);
@@ -134,9 +137,9 @@ body {
 
 .variation-2 {
   animation-name: two;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  animation-direction: normal;
 
 }
 
