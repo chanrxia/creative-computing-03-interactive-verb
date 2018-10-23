@@ -38,7 +38,7 @@ body {
   width: 900px;
   height: 300px;
   border-radius: 600px / 200px;
-  align-content: center;
+  margin: auto;
 }
 
 .transforms {
