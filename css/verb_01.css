@@ -75,3 +75,44 @@ body {
     background: hsl(100, 100%, 50%);
   }
 }
+
+.variation-1 {
+  animation-name: one;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.variation-2 {
+  animation-name: two;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.variation-3 {
+  animation-name: tree;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+
+.variation-4 {
+  animation-name: four;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.variation-5 {
+  animation-name: five;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
