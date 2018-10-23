@@ -68,7 +68,7 @@ body {
     background: radial-gradient(circle, rgba(232,232,232,0.9510022271714922) 0%, rgba(208,209,255,1) 32%, rgba(85,137,244,1) 42%, rgba(58,58,212,1) 76%, rgba(0,0,0,1) 99%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8e8e8",endColorstr="#000000",GradientType=1);
 
-    transform: skew(42deg);
+    transform: skew(-42deg);
 
   }
   100% {
