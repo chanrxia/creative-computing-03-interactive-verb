@@ -39,15 +39,15 @@ body {
 }
 
 .oval tree {
-  margin-top: 60vh;
-}
-
-.oval four {
   margin-top: 70vh;
 }
 
+.oval four {
+  margin-top: 90vh;
+}
+
 .oval five {
-  margin-top: 80vh;
+  margin-top: 110vh;
 }
 
 .transforms {
