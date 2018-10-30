@@ -8,9 +8,13 @@ var oval = document.querySelector(".oval");
 
 var container = document.queryselector (".content");
 
-oval.style.background = "hslColor(h, 0, 50)";
+oval.style.background = "hslColor(0, 0, h)";
 
-container.style.background = hslColor(h,0,70);
+var background = randomNumber(0, 100);
+
+container.style.background = hslColor(0,0,h);
+
+
 
 function hslColor(h, s, l) {  
   var hue = h;
