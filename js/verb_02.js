@@ -3,7 +3,7 @@
   For example, calling color(10, 100, 40);
   will return a string "hsl(10, 100%, 40%)"
 */
-var element = document.querySelector (".col-2 row-32");
+
 var oval = document.querySelector(".oval one");
 
 
