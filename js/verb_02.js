@@ -3,16 +3,16 @@
   For example, calling color(10, 100, 40);
   will return a string "hsl(10, 100%, 40%)"
 */
-var element = document.querySelector (".col-2 row-32")
+var element = document.querySelector (".col-2 row-32");
 var oval = document.querySelector(".oval one");
 
 
-oval one.style.background = "hslColor(1, 0, h)";
+oval one.style.background = "hslColor(0, 0, h)";
 
 var background = randomNumber(0, 100);
 
 var container = document.queryselector (".content");
-container.style.background = hslColor(1,0,h);
+container.style.background = hslColor(0,0,h);
 
 
 
