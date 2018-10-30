@@ -6,17 +6,17 @@
 var element = document.querySelector (".col-2 row-32")
 var oval = document.querySelector(".oval one");
 
-var container = document.queryselector (".content");
 
 oval one.style.background = "hslColor(1, 0, h)";
 
 var background = randomNumber(0, 100);
 
+var container = document.queryselector (".content");
 container.style.background = hslColor(1,0,h);
 
 
 
-function hslColor(h, s, l) {  
+function hslColor(h, s, l) {
   var hue = h;
   var saturation = s + "%";
   var luminance = l + "%";
