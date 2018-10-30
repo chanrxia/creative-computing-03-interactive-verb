@@ -6,7 +6,7 @@
 var oval = document.querySelector(".oval");
 var container = document.queryselector (".content");
 
-oval.style.background = "hslColor(h, 30, 50)";
+oval.style.background = "hslColor(h, 0, 50)";
 
 container.style.background = hslColor(h,50,70);
 
