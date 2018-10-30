@@ -1,3 +1,24 @@
+/* 
+  Returns a color string in the form of "hsl(100, 50%, 50%)"
+  For example, calling color(10, 100, 40);
+  will return a string "hsl(10, 100%, 40%)"
+*/
+var oval = document.querySelector(".oval");
+var container = document.queryselector (".content");
+
+oval.style.background = "hslColor(h, 30, 50)";
+
+container.style.background = hslColor(h,50,70);
+
+function hslColor(h, s, l) {  
+  var hue = h;
+  var saturation = s + "%";
+  var luminance = l + "%";
+
+  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+
+  return color;
+}
 /*
   Returns a random whole number between minimum value and maximum value
 
