@@ -4,11 +4,11 @@
   will return a string "hsl(10, 100%, 40%)"
 */
 var element = document.querySelector (".col-2 row-32")
-var oval = document.querySelector(".oval");
+var oval = document.querySelector(".oval one");
 
 var container = document.queryselector (".content");
 
-oval.style.background = "hslColor(1, 0, h)";
+oval one.style.background = "hslColor(1, 0, h)";
 
 var background = randomNumber(0, 100);
 
