@@ -8,11 +8,11 @@ var oval = document.querySelector(".oval");
 
 var container = document.queryselector (".content");
 
-oval.style.background = "hslColor(0, 0, h)";
+oval.style.background = "hslColor(1, 0, h)";
 
 var background = randomNumber(0, 100);
 
-container.style.background = hslColor(0,0,h);
+container.style.background = hslColor(1,0,h);
 
 
 
