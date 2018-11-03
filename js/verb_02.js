@@ -4,27 +4,6 @@
   will return a string "hsl(10, 100%, 40%)"
 */
 
-var oval = document.querySelector(".oval one");
-
-
-oval one.style.background = "hslColor(0, 0, h)";
-
-var background = randomNumber(0, 100);
-
-var container = document.queryselector (".content");
-container.style.background = hslColor(0,0,h)
-
-
-
-function hslColor(h, s, l) {
-  var hue = h;
-  var saturation = s + "%";
-  var luminance = l + "%";
-
-  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
-
-  return color;
-}
 /*
   Returns a random whole number between minimum value and maximum value
 
@@ -58,3 +37,28 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
+
+
+
+
+var oval = document.querySelector(".oval one");
+
+
+oval one.style.background = "hslColor(0, 0, h)";
+
+var background = randomNumber(0, 100);
+
+var container = document.queryselector (".content");
+container.style.background = hslColor(0,0,h)
+
+
+
+function hslColor(h, s, l) {
+  var hue = h;
+  var saturation = s + "%";
+  var luminance = l + "%";
+
+  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+
+  return color;
+}
