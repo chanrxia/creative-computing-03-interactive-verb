@@ -75,5 +75,6 @@ circle.forEach(function(circle) {
     } else {
       shape.classList.add('shape-interaction');
     }
-
+  });
+});
 
