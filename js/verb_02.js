@@ -79,9 +79,9 @@ ovals.forEach(function(oval) {
   // when the cursor is over the shape, add a modifier class
   // when the cursor is outside of the shape, remove the modifier class
   oval.addEventListener('mouseover', function() {
-    if (oval.classList.contains('oval-variation')) {
-      shape.classList.remove('oval-variation');
+    if (oval.classList.contains('oval-interaction')) {
+      oval.classList.remove('oval-interaction');
     } else {
-      shape.classList.add('oval-variation');
+      oval.classList.add('oval-interaction');
     }
 
