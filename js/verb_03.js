@@ -69,7 +69,7 @@ for (var i = 0; i < 500; i++) {
 var circles = document.querySelectorAll('.circle');
 
 // add interactions to each shape
-circle.forEach(function(circle) {
+circles.forEach(function(circle) {
   // when the cursor is over the shape, add a modifier class
   // when the cursor is outside of the shape, remove the modifier class
   circle.addEventListener('mouseover', function() {
