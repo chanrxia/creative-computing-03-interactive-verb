@@ -39,6 +39,18 @@ function randomFloat (min, max) {
 
 
 
+function hslColor(h, s, l) {
+  var hue = h;
+  var saturation = s + "%";
+  var luminance = l + "%";
+
+  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+
+  return color;
+}
+
+
+
 
 
 var oval = document.querySelector(".oval one");
@@ -53,12 +65,3 @@ container.style.background = hslColor(0,0,h)
 
 
 
-function hslColor(h, s, l) {
-  var hue = h;
-  var saturation = s + "%";
-  var luminance = l + "%";
-
-  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
-
-  return color;
-}
