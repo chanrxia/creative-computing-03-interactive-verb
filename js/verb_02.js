@@ -51,6 +51,9 @@ function hslColor(h, s, l) {
 
 
 
+var container = document.queryselector(".content");
+
+
 
 
 var oval = document.querySelector(".oval one");
@@ -60,8 +63,25 @@ oval.style.background = hslColor(0, 0, h);
 
 var background = randomNumber(0, 100);
 
-var container = document.queryselector (".content");
+
 container.style.background = hslColor(0,0,h);
 
+for (var i = 0; i < 500; i++) {  
+  var shape = document.createElement('div');
+  shape.classList.add('shape');
 
+
+
+  var shapes = document.querySelectorAll('.shape');
+
+// add interactions to each shape
+shapes.forEach(function(shape) {
+  // when the cursor is over the shape, add a modifier class
+  // when the cursor is outside of the shape, remove the modifier class
+  shape.addEventListener('mouseover', function() {
+    if (shape.classList.contains('shape-interaction')) {
+      shape.classList.remove('shape-interaction');
+    } else {
+      shape.classList.add('shape-interaction');
+    }
 
