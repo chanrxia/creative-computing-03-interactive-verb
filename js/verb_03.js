@@ -43,36 +43,33 @@ function hslColor(h, s, l) {
   return color;
 }
 
-
+var container = document.querySelector(".content");
 
 /* 
-
 TO DO:
-
 1. Randomize shape width
 2. Randomize shape height
 3. Randomize shape color
 4. Randomize background color
 5. Randomize border color
-
 */
 
 for (var i = 0; i < 500; i++) {  
   var circle = document.createElement('div');
-  circle.classList.add('shape');
+  circle.classList.add('circle');
 
 
-  var shapes = document.querySelectorAll('.shape');
+  var shapes = document.querySelectorAll('.circle');
 
 // add interactions to each shape
 circle.forEach(function(circle) {
   // when the cursor is over the shape, add a modifier class
   // when the cursor is outside of the shape, remove the modifier class
-  shape.addEventListener('mouseover', function() {
-    if (shape.classList.contains('shape-interaction')) {
-      shape.classList.remove('shape-interaction');
+  circle.addEventListener('mouseover', function() {
+    if (circle.classList.contains('circle-interaction')) {
+      circle.classList.remove('shape-interaction');
     } else {
-      shape.classList.add('shape-interaction');
+      circle.classList.add('circle-interaction');
     }
   });
 });
