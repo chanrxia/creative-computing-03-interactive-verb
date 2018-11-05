@@ -62,7 +62,6 @@ for (var i = 0; i < 500; i++) {
   circle.classList.add('shape');
 
 
-
   var shapes = document.querySelectorAll('.shape');
 
 // add interactions to each shape
