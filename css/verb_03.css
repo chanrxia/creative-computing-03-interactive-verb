@@ -35,3 +35,7 @@ circle {
       border-radius: 50%
     }
   
+.shape-interaction {
+  transform: rotate(450deg);
+}
+
