@@ -57,3 +57,23 @@ TO DO:
 
 */
 
+for (var i = 0; i < 500; i++) {  
+  var circle = document.createElement('div');
+  circle.classList.add('shape');
+
+
+
+  var shapes = document.querySelectorAll('.shape');
+
+// add interactions to each shape
+circle.forEach(function(circle) {
+  // when the cursor is over the shape, add a modifier class
+  // when the cursor is outside of the shape, remove the modifier class
+  shape.addEventListener('mouseover', function() {
+    if (shape.classList.contains('shape-interaction')) {
+      shape.classList.remove('shape-interaction');
+    } else {
+      shape.classList.add('shape-interaction');
+    }
+
+
