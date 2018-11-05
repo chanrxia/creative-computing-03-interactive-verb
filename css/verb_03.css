@@ -31,11 +31,10 @@ body {
 circle {
       width: 100px;
       height: 100px;
-      background: red;
       border-radius: 50%
     }
   
-.shape-interaction {
+.circle-interaction {
   transform: rotate(450deg);
 }
 
