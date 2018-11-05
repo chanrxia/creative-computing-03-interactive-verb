@@ -59,14 +59,14 @@ for (var i = 0; i < 500; i++) {
   circle.classList.add('circle');
 
   // add a random animation duration and delay to each shape
-  shape.style.animationDelay = randomNumber(0, 5000) + 'ms';
-  shape.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+  circle.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  cirlce.style.animationDuration = randomNumber(1000, 10000) + 'ms';
 
   container.appendChild(shape);
 }
 
 // select all shapes on the page
-var shapes = document.querySelectorAll('.shape');
+var circles = document.querySelectorAll('.circle');
 
 // add interactions to each shape
 circle.forEach(function(circle) {
