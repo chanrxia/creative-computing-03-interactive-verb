@@ -67,21 +67,21 @@ var background = randomNumber(0, 100);
 container.style.background = hslColor(0,0,h);
 
 for (var i = 0; i < 500; i++) {  
-  var shape = document.createElement('div');
-  shape.classList.add('shape');
+  var oval = document.createElement('div');
+  oval.classList.add('oval');
 
 
 
-  var shapes = document.querySelectorAll('.shape');
+  var ovals = document.querySelectorAll('.oval');
 
 // add interactions to each shape
-shapes.forEach(function(shape) {
+ovals.forEach(function(oval) {
   // when the cursor is over the shape, add a modifier class
   // when the cursor is outside of the shape, remove the modifier class
-  shape.addEventListener('mouseover', function() {
-    if (shape.classList.contains('shape-interaction')) {
-      shape.classList.remove('shape-interaction');
+  oval.addEventListener('mouseover', function() {
+    if (oval.classList.contains('oval-variation')) {
+      shape.classList.remove('oval-variation');
     } else {
-      shape.classList.add('shape-interaction');
+      shape.classList.add('oval-variation');
     }
 
