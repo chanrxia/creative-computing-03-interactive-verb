@@ -58,8 +58,15 @@ for (var i = 0; i < 500; i++) {
   var circle = document.createElement('div');
   circle.classList.add('circle');
 
+  // add a random animation duration and delay to each shape
+  shape.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  shape.style.animationDuration = randomNumber(1000, 10000) + 'ms';
 
-  var shapes = document.querySelectorAll('.circle');
+  container.appendChild(shape);
+}
+
+// select all shapes on the page
+var shapes = document.querySelectorAll('.shape');
 
 // add interactions to each shape
 circle.forEach(function(circle) {
