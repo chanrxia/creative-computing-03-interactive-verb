@@ -57,13 +57,13 @@ TO DO:
 for (var i = 0; i < 500; i++) {  
   var circle = document.createElement('div');
   circle.classList.add('circle');
-}
+
   // add a random animation duration and delay to each shape
   circle.style.animationDelay = randomNumber(0, 5000) + 'ms';
   circle.style.animationDuration = randomNumber(1000, 10000) + 'ms';
 
   container.appendChild(circle);
-
+}
 
 // select all shapes on the page
 var circles = document.querySelectorAll('.circle');
