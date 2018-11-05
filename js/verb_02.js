@@ -61,7 +61,7 @@ oval one.style.background = "hslColor(0, 0, h)";
 var background = randomNumber(0, 100);
 
 var container = document.queryselector (".content");
-container.style.background = hslColor(0,0,h)
+container.style.background = hslColor(0,0,h);
 
 
 
