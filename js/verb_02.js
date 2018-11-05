@@ -56,7 +56,7 @@ function hslColor(h, s, l) {
 var oval = document.querySelector(".oval one");
 
 
-oval.style.background = "hslColor(0, 0, h)";
+oval.style.background = hslColor(0, 0, h);
 
 var background = randomNumber(0, 100);
 
