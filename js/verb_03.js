@@ -62,7 +62,7 @@ for (var i = 0; i < 500; i++) {
   circle.style.animationDelay = randomNumber(0, 5000) + 'ms';
   circle.style.animationDuration = randomNumber(1000, 10000) + 'ms';
 
-  container.appendChild(shape);
+  container.appendChild(circle);
 }
 
 // select all shapes on the page
