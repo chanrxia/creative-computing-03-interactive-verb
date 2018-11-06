@@ -58,8 +58,6 @@ var container = document.queryselector(".content");
 
 var oval = document.querySelector(".oval one");
 
-var width = randomNumber(200,800);
-shape.style.width = width + "px";
 
 oval.style.background = hslColor(0, 0, h);
 
