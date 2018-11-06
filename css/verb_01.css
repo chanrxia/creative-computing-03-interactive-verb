@@ -23,9 +23,9 @@ body {
 }
 
 .oval {
-  width: 900px;
-  height: 300px;
-  border-radius: 600px / 200px;
+  width: 800px;
+  height: 200px;
+  border-radius: 500px / 150px;
   margin: auto;
 }
 
