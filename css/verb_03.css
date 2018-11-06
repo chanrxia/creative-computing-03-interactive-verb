@@ -28,7 +28,7 @@ body {
 .circle {
     width: 10px;
     height: 10px;
-    border-radius: 50%
+    border-radius: 50%;
     animation-name: one;
     animation-duration: 5s;
     animation-iteration-count: infinite;
