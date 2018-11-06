@@ -25,19 +25,10 @@ body {
   line-height: 0;
 }
 
-@keyframes spin {
-  0% {
-    border-top-color: hsl(300, 50%, 50%);
-  }
-  100% {
-    border-top-color: transparent;
-  }
-}
-
 
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%
     animation-name: one;
     animation-duration: 5s;
