@@ -39,7 +39,7 @@ body {
 }
 
 .oval one {
-  margin-top: 50vh;
+  margin-top: 70vh;
 }
 
 @keyframes one {
@@ -90,5 +90,4 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-
 }
