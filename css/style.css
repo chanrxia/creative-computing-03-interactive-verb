@@ -74,5 +74,9 @@ h4 {
 }
 
 a:hover {
-  color: blue;
+  color: coral;
+}
+
+h1:hover {
+  color: gray;
 }
