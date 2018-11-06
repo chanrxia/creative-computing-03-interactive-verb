@@ -12,7 +12,11 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   padding: 0;
-
+  background-image: url("file:///Users/rachel/Documents/potw1437a.jpg");
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
 }
 
 div {
@@ -62,11 +66,6 @@ h4 {
 .content {
   height: 100%;
   width: 100%;
-  background-image: url("file:///Users/rachel/Documents/potw1437a.jpg");
-  background-color: black;
-  background-size: 100%;
-  background-position: center;
-  background-repeat: repeat-y;
 }
 
 .verb h1 {
