@@ -63,6 +63,8 @@ oval.style.background = hslColor(0, 0, h);
 
 var background = randomNumber(0, 100);
 
+var width = randomNumber(200,800);
+shape.style.width = width + "px";
 
 container.style.background = hslColor(0,0,h);
 
