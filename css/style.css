@@ -64,7 +64,7 @@ h4 {
   background-image: url("file:///Users/rachel/Documents/potw1437a.jpg");
   background-size: 100%;
   background-position: center;
-  
+  background-repeat: repeat-y;
 }
 
 .verb h1 {
