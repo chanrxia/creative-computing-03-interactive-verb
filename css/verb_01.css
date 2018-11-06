@@ -30,24 +30,24 @@ body {
 }
 
 .oval one {
-  margin-top: 30vh;
+  margin-top: 60vh;
 
 }
 
 .oval two {
-  margin-top: 40vh;
-}
-
-.oval tree {
-  margin-top: 70vh;
-}
-
-.oval four {
   margin-top: 90vh;
 }
 
+.oval tree {
+  margin-top: 130vh;
+}
+
+.oval four {
+  margin-top: 180vh;
+}
+
 .oval five {
-  margin-top: 110vh;
+  margin-top: 230vh;
 }
 
 .transforms {
