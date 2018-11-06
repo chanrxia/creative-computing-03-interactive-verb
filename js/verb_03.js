@@ -74,7 +74,7 @@ circles.forEach(function(circle) {
   // when the cursor is outside of the shape, remove the modifier class
   circle.addEventListener('mouseover', function() {
     if (circle.classList.contains('circle-interaction')) {
-      circle.classList.remove('shape-interaction');
+      circle.classList.remove('circle-interaction');
     } else {
       circle.classList.add('circle-interaction');
     }
