@@ -31,8 +31,20 @@ body {
   height: 5px;
   border-radius: 50%;
   background: gray;
-  margin: 30px;
+  margin: 50px;
   display: inline-block;
+}
+
+@keyframes circle {
+  0% {
+    border-top-color: white;
+  }
+  50% {
+    border-top-color: gray;
+  }
+  100% {
+    border-top-color: transparent;
+  }
 }
 
 .circle2 {
@@ -40,6 +52,18 @@ body {
   height: 5px;
   border-radius: 50%;
   background: white;
-  margin: 30px;
+  margin: 50px;
   display: inline-block;
+}
+
+@keyframes circle2 {
+  0% {
+    border-top-color: gray;
+  }
+  50% {
+    border-top-color: white;
+  }
+  100% {
+    border-top-color: transparent;
+  }
 }
