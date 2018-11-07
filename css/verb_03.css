@@ -51,32 +51,6 @@ body {
   }
 }
 
-.circlee {
-  animation-name: circle;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  width: 2px;
-  height: 5px;
-  border-radius: 50%;
-  background: white;
-  margin: 20px;
-  display: inline-block;
-
-
-}
-
-@keyframes circlee {
-  0% {
-    border-top-color: gray;
-  }
-  50% {
-    border-top-color: white;
-  }
-  100% {
-    border-top-color: transparent;
-  }
-}
-
 .circle-interaction {
   transform: rotate(450deg);
 }
