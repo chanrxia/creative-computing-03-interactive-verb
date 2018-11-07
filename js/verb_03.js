@@ -49,6 +49,7 @@ var l = randomNumber(0,360);
 
 var container = document.querySelector(".content");
 var circle = document.querySelector(".circle");
+var circlee = document.querySelector(".circlee");
 var width = randomNumber(1,5);
 
 
