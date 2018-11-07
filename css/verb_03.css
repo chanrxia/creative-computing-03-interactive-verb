@@ -27,11 +27,19 @@ body {
 
 
 .circle {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: gray;
-  margin: 0;
+  margin: 30px;
   display: inline-block;
-  
+}
 
+.circle2 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  margin: 30px;
+  display: inline-block;
+}
