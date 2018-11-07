@@ -43,9 +43,9 @@ function hslColor(h, s, l) {
   return color;
 }
 
+element.style.background = color
 var background = hslColor (240, 0, 100);
 var l = randomNumber(0,360);
-
 
 var container = document.querySelector(".content");
 var circle = document.querySelector(".circle");
