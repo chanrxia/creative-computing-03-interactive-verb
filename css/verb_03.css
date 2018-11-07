@@ -36,6 +36,7 @@ body {
   background: gray;
   margin: 20px;
   display: inline-block;
+  transition: all 3s;
 }
 
 @keyframes circle {
