@@ -52,8 +52,7 @@ var container = document.querySelector(".content");
 var width = randomNumber(1,5);
 circle.style.width = width + "px";
 
-var width = randomNumber(1,5);
-circlee.style.width = width + "px";
+
 
 
 /* 
