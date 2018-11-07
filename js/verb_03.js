@@ -65,6 +65,17 @@ for (var i = 0; i < 10000; i++) {
   container.appendChild(circle);
 }
 
+for (var i = 0; i < 10000; i++) {  
+  var circle2 = document.createElement('div');
+  circle2.classList.add('circle2');
+
+  // add a random animation duration and delay to each shape
+  circle2.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  circle2.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+
+  container.appendChild(circle2);
+}
+
 // select all shapes on the page
 var circles = document.querySelectorAll('.circle');
 
