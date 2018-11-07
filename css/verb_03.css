@@ -64,7 +64,7 @@ body {
 
 }
 
-@keyframes circle2 {
+@keyframes circlee {
   0% {
     border-top-color: gray;
   }
@@ -76,6 +76,6 @@ body {
   }
 }
 
-.shape-interaction {
+.circle-interaction {
   transform: rotate(450deg);
 }
