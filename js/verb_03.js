@@ -77,7 +77,7 @@ for (var i = 0; i < 10000; i++) {
 }
 
 for (var i = 0; i < 10000; i++) {  
-  var circle2 = document.createElement('div');
+  var circlee = document.createElement('div');
   circlee.classList.add('circlee');
 
   // add a random animation duration and delay to each shape
