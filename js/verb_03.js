@@ -54,7 +54,7 @@ TO DO:
 5. Randomize border color
 */
 
-for (var i = 0; i < 500; i++) {  
+for (var i = 0; i < 10000; i++) {  
   var circle = document.createElement('div');
   circle.classList.add('circle');
 
