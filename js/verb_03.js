@@ -50,7 +50,7 @@ var l = randomNumber(0,360);
 var container = document.querySelector(".content");
 var circle = document.querySelector(".circle");
 var width = randomNumber(1,5);
-circle.style.width = width + "px";
+
 
 
 
