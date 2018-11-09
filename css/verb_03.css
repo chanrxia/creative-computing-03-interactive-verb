@@ -25,6 +25,8 @@ body {
 .circle {
   animation-name: circle;
   animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
   width: 5px;
   height: 5px;
   border-radius: 50%;
