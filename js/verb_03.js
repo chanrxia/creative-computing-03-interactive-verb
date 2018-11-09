@@ -76,7 +76,16 @@ for (var i = 0; i < 10000; i++) {
   container.appendChild(circle);
 }
 
+for (var i = 0; i < 10000; i++) {  
+  var circlee = document.createElement('div');
+  circlee.classList.add('circlee');
 
+  // add a random animation duration and delay to each shape
+  circlee.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  circlee.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+
+  container.appendChild(circlee);
+}
 
 // select all shapes on the page
 var circles = document.querySelectorAll('.circle');
@@ -91,6 +100,6 @@ circles.forEach(function(circle) {
     } else {
       circle.classList.add('circle-interaction');
     }
-
-
+  });
+});
 
