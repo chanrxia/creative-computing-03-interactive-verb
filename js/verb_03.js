@@ -91,6 +91,6 @@ circles.forEach(function(circle) {
     } else {
       circle.classList.add('circle-interaction');
     }
-  });
+
 
 
