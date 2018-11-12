@@ -21,6 +21,17 @@ body {
   line-height: 0;
 }
 
+@keyframes circle {
+  0% {
+    border-top-color: white;
+  }
+  50% {
+    border-top-color: gray;
+  }
+  100% {
+    border-top-color: transparent;
+  }
+}
 
 .circle {
   animation-name: circle;
@@ -36,17 +47,6 @@ body {
   transition: all 2s;
 }
 
-@keyframes circle {
-  0% {
-    border-top-color: white;
-  }
-  50% {
-    border-top-color: gray;
-  }
-  100% {
-    border-top-color: transparent;
-  }
-}
 
 .circle-interaction {
   transform: rotate(450deg);
