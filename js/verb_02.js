@@ -56,26 +56,26 @@ var container = document.queryselector(".content");
 
 
 
-var oval = document.querySelector(".oval one");
+var .oval = document.querySelector(".oval one");
 
 
-oval.style.background = hslColor(0, 0, h);
+oval.style.background = hslColor(0, 0, background);
 
 var background = randomNumber(0, 100);
 
 
-container.style.background = hslColor(0,0,h);
+container.style.background = hslColor(0,0,background);
 
-for (var i = 0; i < 500; i++) {  
+for (var i = 0; i < 500; i++) {  **
   var oval = document.createElement('div');
   oval.classList.add('oval');
-
+}
 
 
   var ovals = document.querySelectorAll('.oval');
 
 // add interactions to each shape
-ovals.forEach(function(oval) {
+ovals.forEach(function(oval)) {
   // when the cursor is over the shape, add a modifier class
   // when the cursor is outside of the shape, remove the modifier class
   oval.addEventListener('mouseover', function() {
@@ -84,4 +84,5 @@ ovals.forEach(function(oval) {
     } else {
       oval.classList.add('oval-interaction');
     }
-
+  }
+}
