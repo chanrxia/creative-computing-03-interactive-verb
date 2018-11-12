@@ -39,8 +39,7 @@ body {
 }
 
 .oval one {
-  margin-top: 30vh;
-
+  margin-top: 70vh;
 }
 
 @keyframes one {
@@ -62,6 +61,7 @@ body {
 
     transform: rotateX(68deg) rotateY(53deg) rotateZ(21deg) scale(.6);
   }
+
   75% {
     background: rgb(232,232,232);
     background: -moz-radial-gradient(circle, rgba(232,232,232,0.9510022271714922) 0%, rgba(208,209,255,1) 0%, rgba(85,137,244,1) 60%, rgba(58,58,212,1) 86%, rgba(0,0,0,1) 100%);
@@ -90,5 +90,4 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-
 }

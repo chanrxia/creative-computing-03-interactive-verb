@@ -43,7 +43,18 @@ function hslColor(h, s, l) {
   return color;
 }
 
+
+var background = hslColor (240, 0, 100);
+var l = randomNumber(0,360);
+
 var container = document.querySelector(".content");
+var circle = document.querySelector(".circle");
+var circlee = document.querySelector(".circlee");
+var width = randomNumber(1,5);
+
+
+
+
 
 /* 
 TO DO:
@@ -54,7 +65,7 @@ TO DO:
 5. Randomize border color
 */
 
-for (var i = 0; i < 500; i++) {  
+for (var i = 0; i < 10000; i++) {  
   var circle = document.createElement('div');
   circle.classList.add('circle');
 
@@ -63,6 +74,17 @@ for (var i = 0; i < 500; i++) {
   circle.style.animationDuration = randomNumber(1000, 10000) + 'ms';
 
   container.appendChild(circle);
+}
+
+for (var i = 0; i < 10000; i++) {  
+  var circlee = document.createElement('div');
+  circlee.classList.add('circlee');
+
+  // add a random animation duration and delay to each shape
+  circlee.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  circlee.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+
+  container.appendChild(circlee);
 }
 
 // select all shapes on the page
@@ -74,7 +96,7 @@ circles.forEach(function(circle) {
   // when the cursor is outside of the shape, remove the modifier class
   circle.addEventListener('mouseover', function() {
     if (circle.classList.contains('circle-interaction')) {
-      circle.classList.remove('shape-interaction');
+      circle.classList.remove('circle-interaction');
     } else {
       circle.classList.add('circle-interaction');
     }

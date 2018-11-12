@@ -12,7 +12,15 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   padding: 0;
+  background-image: url("file:///Users/rachel/Documents/potw1437a.jpg");
+  background-color: black;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: repeat-y;
+}
 
+div {
+  color: white;
 }
 
 a:hover {
@@ -27,23 +35,24 @@ h1 {
 
 a {
   font-family: 'Heebo', sans-serif;
-  font-weight: 100pt;
+  font-weight: 100;
+  color: gray;
 }
 
 }
 h2 {
   font-family: 'Heebo', sans-serif;
-  font-weight: 100pt;
+  font-weight: 100;
 }
 
 h3 {
   font-family: 'Heebo', sans-serif;
-  font-weight: 100pt;
+  font-weight: 100;
 }
 
 h4 {
   font-family: 'Heebo', sans-serif;
-  font-weight: 100pt;
+  font-weight: 100;
 }
 .center {
   position: absolute;
@@ -64,3 +73,10 @@ h4 {
   text-align: center;
 }
 
+a:hover {
+  color: coral;
+}
+
+h1:hover {
+  color: gray;
+}
