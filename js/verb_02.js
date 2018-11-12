@@ -66,9 +66,8 @@ var background = randomNumber(0, 100);
 var width = randomNumber(200,800);
 shape.style.width = width + "px";
 
-container.style.background = hslColor(0,0,background);
 
-for (var i = 0; i < 500; i++) {  **
+for (var i = 0; i < 500; i++) {
   var oval = document.createElement('div');
   oval.classList.add('oval');
 }
